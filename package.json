@@ -1,0 +1,25 @@
+{
+  "name": "w-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "w-cli": "./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ncp": "^2.0.0",
+    "ora": "5.4.1"
+  }
+}
